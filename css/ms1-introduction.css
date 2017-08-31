@@ -16,3 +16,68 @@
 	background: url('/image/dream.jpg');
 	background-size: cover;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dream {
+    background: url(https://user-images.githubusercontent.com/30562314/29828797-c4e0855e-8cab-11e7-9a66-8f7068a8fa00.jpeg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 100vh; 
+}
+
+.dream h1 {
+    font-weight: 200;
+    font-size: 70px;
+    position: relative;
+    color: white;
+    margin-top: 0px;
+    top: 280px;
+    letter-spacing: 1.35em;
+}
+
+.dream p {
+    position: relative;
+    top: 230px;
+    color: white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.dream-content {
+    margin: 2% 32%; 
+    
+}
+
+.dream-content h2 {
+    font-weight: 300;
+    font-style: italic;
+    float: left;
+    background-color: black;
+    color: white;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.dream-content p {
+    font-weight: 300;
+    float: left;
+    margin-top: 27px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    padding: 10px 0px 20px 0px;
+    margin: 0px;
+    background-color: black;
+}
