@@ -11,7 +11,7 @@ content-container {
 }
 
 .dream h1 {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 70px;
     position: relative;
     color: white;
@@ -26,14 +26,27 @@ content-container {
     top: 305px;
     color: white;
     font-weight: 100;
-    font-style: italic;
     font-size: 15px;
     text-align: center;
 }
 
+.dream p span {
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.dream .cite {
+    position: relative;
+    top: 580px;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+}
+
 .dream-content {
-    margin: 2% 32%; 
-    
+    margin: 2% 32%;     
 }
 
 .dream-content h2 {
