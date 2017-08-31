@@ -1,0 +1,527 @@
+
+
+html, body, ul {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 300;
+
+}
+body {
+	/* 반응형으로 바꾼 부분 : width: 1230px; */
+	width: 100%;
+    
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.home-container {
+    margin: 0px auto;
+    width: 90%;
+}
+
+
+.header {
+	height: 50px;
+	padding: 20px 0px 20px 0px;
+	width: 100%
+}
+
+.header .logo {
+	display: block;
+	font-size: 24px;  
+	font-weight: 600;
+	max-width: 70px;
+	padding-top: 5px;
+	float: left;
+}
+
+.header .logo a {
+	text-decoration: none;
+	color: black;
+}
+
+.header .top-nav {
+	float: left;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 12px;
+	margin-left: 30px;
+}
+
+.header .top-nav a {
+	text-decoration: none;
+	color: grey;
+}
+
+.home-header {
+	/* 반응형으로 바뀐부분: 삭제
+	height: 100px; */
+	margin-top: 40px;
+	/* 반응형으로 바뀐부분: 추가 */
+	display: inline-block;
+}
+
+.home-header .nav {
+	padding: 30px 0px 0px 0px;
+	
+}
+
+.home-header ul {
+	display: block;
+
+}
+
+.home-header li {
+	font-size: 90px;
+	font-weight: 300;
+	line-height: 90px;
+	margin: 0px;
+	display: inline-block;
+	margin-right: 30px;
+	letter-spacing: -2px;
+}
+
+.home-header li span {
+    font-size: 18px;
+    text-decoration: line-through;
+    letter-spacing: 0px;
+}
+
+.home-header .study {
+	margin-right: 80px;
+}
+
+.home-header li a {
+	text-decoration: none;
+	color: black;
+}
+
+.home-header li a:hover {
+	background-color: #fbef3a;
+
+	/*color: white;*/
+}
+
+
+/*.home-header .works a:hover {
+	background-color: #8cb3f3;
+	color: white;
+}
+
+.home-header .contents a:hover {
+	background-color: #a4a6f9;
+	color: white;
+}
+
+.home-header .fun a:hover {
+	background-color: #caa4f9;
+	color: white;
+}*/
+
+.home-header ul .medium {
+	font-size: 28px;
+	letter-spacing: 0px;
+	margin-right: 100px;
+}
+
+.home-header ul .small {
+	font-size: 18px;
+	letter-spacing: 0px;
+	margin-right: 100px;
+}
+
+.home-header .nav {
+	float: left;
+}
+
+.home-header .intro, .home-header .filter, .home-header .go, .filter-next {
+	float: left;
+}
+
+.home-header .intro p, .home-header .filter p, .home-header .go p, .filter-next p {
+	border-left: 2px solid black;
+	padding-left: 20px;
+	margin-top: 30px;
+	/* 반응형으로 바뀐 부분: 삭제
+	margin-left: 30px */
+}
+
+
+
+
+.home-header .go p {
+	margin-left: 0px;
+    margin-top: 55px;
+}
+
+.home-header .intro p, .home-header .filter p, .home-header .go p, .filter-next p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.home-header .intro p span, .home-header .filter p span, .home-header .go p span, .filter-next p span {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.home-header .intro a, .home-header .filter a, .home-header .go a, .filter-next a {
+	color: grey;
+	text-decoration: none;
+
+}
+
+.home-content {
+	display: block;
+	/* 반응형으로 바뀐 부분: 삭제 
+	margin-top: 10px;*/
+	/* 반응형으로 바뀐 부분: 추가 */
+	margin: 0px auto;
+	/* 반응형으로 바뀐 부분: 추가 */
+	width: 100%;
+
+}
+
+.home-content img {
+	/* 반응형으로 바뀐 부분: width: 1230px; */
+	width: 100%;
+	margin-bottom: -4px;
+}
+
+.row {
+	/* 반응형으로 바뀐 부분: margin-top: 70px; */
+	margin-bottom: 70px;
+}
+
+
+
+.piece, .piece-last {
+	float: left;
+	/* 반응형으로 바뀐 부분: width: 390px; */
+	width: 30%;
+	min-width: 370px;
+	height: 475px;
+	border-bottom: 2px solid grey;
+	/* 반응형으로 바뀐 부분: 추가 */
+	margin-bottom: 70px;
+	display: inline-block;
+	
+}
+
+.piece-last {
+	margin-bottom: 20px;
+}
+
+.marg, .marg-2 {
+	float: left;
+	width: 5%;
+	height: 475px;
+}
+
+.exp a:hover {
+	background-color: #fbef3a;
+}
+
+.sc-piece .box a {
+	text-decoration: none;
+	color: black;
+}
+
+.sc-piece .box a:hover {
+	background-color: #fbef3a;
+}
+
+.piece a, .piece-wide a, .sc-piece-2 a {
+	text-decoration: none;
+	color: black;
+}
+
+.piece a:hover, .piece-wide a:hover .sc-piece-2 a:hover {
+	background-color: #fbef3a;
+}
+
+.img-01, .img-02, .img-03, .img-05, .img-06, .img-07, .img-08 {
+	position: relative;
+	background-color: #e8e8e8;
+	/* 반응형으로 바뀐 부분: width: 390px; */
+	width: 100%;
+	height: 300px;
+	/* border-bottom: 10px solid #8bf9d9; */	
+	background-size: 100%;
+	display: inline-block;
+	opacity: 0.8;
+}
+
+.img-01:hover, .img-02:hover, .img-03:hover, .img-05:hover, .img-06:hover, .img-07:hover, .img-08:hover {
+	opacity: 1;
+}
+
+
+.img-04 {
+	position: relative;
+	background-color: #e8e8e8;
+	/* 반응형으로 바뀐 부분: width: 810px; */
+	width: 100%;
+	height: 300px;
+	/* border-bottom: 10px solid #8bf9d9; */
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170815/HW/Web/Portfolio/image/doit.jpg');
+	background-size: cover;
+	opacity: 0.9;
+}
+
+.img-04:hover {
+	opacity: 1;
+
+}
+
+.img-01 {
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170806/HW/Web/image/service.jpg');
+	background-size: cover;
+}
+
+.img-02 {
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170806/HW/Web/image/irp.jpg');
+	background-size: cover;
+}
+
+
+
+.img-03 {
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170815/HW/Web/Portfolio/image/typo.jpg');
+	background-size: cover;
+}
+
+
+.img-05 {
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170815/HW/Web/Portfolio/image/emoji.jpg');
+	background-size: cover;
+}
+
+
+.img-06 {
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170806/HW/Web/image/food.jpg');
+	background-size: cover;
+}
+
+
+.img-07 {
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170806/HW/Web/image/dawin.jpg');
+	background-size: cover;
+}
+
+
+.img-08 {
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170806/HW/Web/image/christmas.jpg');
+	background-size: cover;
+}
+
+
+.mark {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170815/HW/Web/portfolio/image/tag_work.png');
+	background-size: 100%;
+}
+
+.mark-cont {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170815/HW/Web/portfolio/image/tag_content.png');
+	background-size: 100%;
+}
+
+.mark-fun {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170815/HW/Web/portfolio/image/tag_fun.png');
+	background-size: 100%;
+}
+
+.piece .categ, .piece-last .categ, .piece-wide .categ, .sc-piece-2 .categ {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: grey;
+	margin-left: 10px;
+}
+
+.piece .title, .piece-last .title, .piece-wide .title, .sc-piece-2 .title {
+	font-size: 24px;
+	font-weight: 400;
+	margin-left: 10px;
+	line-height: 33px;
+}
+
+.piece .title, .piece-last .title, .piece-wide .title, .sc-piece-2 .title a {
+	text-decoration: none;
+	color: black;
+}
+
+.sc-piece {
+	position: relative;
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170815/HW/Web/Portfolio/image/kyobo.jpg');
+	width: 100%;
+	height: 400px;
+	/* 반응형으로 바꾼부분: 삭제;
+	width: 1230px; */
+	/* border-bottom: 10px solid #8bf9d9; */
+	background-size: cover;
+	transition: background 300ms ease;
+	opacity: 0.8;
+}
+
+.sc-piece:hover {
+	background-size: cover;
+	opacity: 1;
+
+}
+
+.sc-piece-2 {
+	
+	/* 반응형으로 바뀐 부분: width: 810px; */
+	width: 100%;
+	height: 475px;
+	margin-bottom: 70px;
+	border-bottom: 2px solid grey;
+	background-size: cover;
+	position: relative;
+}
+
+.sc-piece .box {
+	background-color: white;
+	position: relative;
+	margin: 60px 50px;
+	height: 280px;
+	width: 275px;
+	top: 60px;
+
+}
+
+.sc-piece p {
+	font-size: 40px;
+	font-weight: 400;
+	padding-left: 30px;
+	padding-top: 40px;
+	position: relative;
+	color: black;
+}
+
+.top-img {
+	position: relative;
+	background: url('///Users/kwakminhye/Documents/Parsons/01_Bootcamp/20170815/HW/Web/portfolio/image/doit_ver0.jpg');
+	background-size: cover;
+	height: 380px;
+	/* 반응형으로 바뀐 부분 */
+	width: 100%;
+
+}
+
+.top-img .box {
+	background-color: white;
+	position: relative;
+	margin: 50px 50px 50px 75px;
+	height: 230px;
+	width: 340px;
+	top: 76px;
+
+}
+
+.top-img p {
+	font-size: 40px;
+	font-weight: 400;
+	padding-left: 20px;
+	padding-top: 40px;
+	position: relative;
+	color: black;
+}
+
+.top-img span {
+	font-weight: 300;
+	padding-top: 20px;
+	font-size: 16px;
+	color: grey;
+}
+
+.sc-piece .button {
+	/*background-color: transparent;
+	border: 1px solid grey;
+	padding: 10px 24px;*/
+	font-size: 14px;
+	text-decoration: none;
+	position: relative;
+	margin-left: 30px;
+	color: grey;
+}
+
+
+
+.footer {
+	margin: 0px auto;
+	height: 100px;
+	text-align: center;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.port-content {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	margin-left: 7%;
+}
+
+
+.det-0 {
+	margin-left: 10%;
+	margin-right: 10%;
+	/*float: left;*/
+}
+
+.det-1 {
+	margin-left: 10%;
+	margin-right: 10%;
+	/*float: left;*/
+}
+
+.det-2 {
+	margin-left: 10%;
+	margin-right: 10%;
+	/*float: left;*/
+}
+
+.det-3 {
+	margin-left: 10%;
+	margin-right: 10%;
+	/*float: left;*/
+}
+
+.subt {
+	font-size: 14px;
+	color: grey;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
