@@ -1,22 +1,3 @@
-.img-ms1-01 {
-	position: relative;
-	background-color: #e8e8e8;
-	width: 100%;
-	height: 300px;	
-	background-size: 100%;
-	display: inline-block;
-	opacity: 0.8;
-}
-
-.img-ms1-01:hover {
-	opacity: 1;
-}
-
-.img-ms1-01 {
-	background: url('/image/dream.jpg');
-	background-size: cover;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
