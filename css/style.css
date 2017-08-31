@@ -205,7 +205,7 @@ ol, ul {
 	height: 475px;
 	border-bottom: 2px solid grey;
 	/* 반응형으로 바뀐 부분: 추가 */
-	margin-bottom: 70px;
+	margin: 20px 0px 70px 0px;
 	display: inline-block;
 	
 }
