@@ -1,0 +1,46 @@
+.project-container {
+    margin: 40px auto 0px auto;
+    width: 90%;
+}
+
+.constraints {
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 15px;
+}
+
+.project {
+    margin-top: 40px;
+}
+
+.project h2 span {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.day1-img {
+    float: left;
+    display: inline-block;
+    width: 65%;
+    min-width: 400px;
+}
+
+.day1-img img {
+    width: 100%;
+}
+
+.day1-desc {
+    float: left;
+    width: 25%;
+    min-width: 300px;
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.day1-desc h3 {
+    background-color: #fbef3a;
+    color: black;
+}
+
+.day1-desc p {
+    margin-top: 20px;
+}
