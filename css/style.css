@@ -512,7 +512,7 @@ ol, ul {
 	font-weight: 300;
 }
 
-.img-ms1-01 {
+.img-ms1-01, .img-ms1-02 {
 	position: relative;
 	background-color: #e8e8e8;
 	width: 100%;
@@ -522,12 +522,17 @@ ol, ul {
 	opacity: 0.8;
 }
 
-.img-ms1-01:hover {
+.img-ms1-01:hover, .img-ms1-02:hover {
 	opacity: 1;
 }
 
 .img-ms1-01 {
 	background: url('/image/dream.jpg');
+	background-size: cover;
+}
+
+.img-ms1-02 {
+	background: url('/image/ms1-02-7in7/thumb_7in7_day1.jpg');
 	background-size: cover;
 }
 
