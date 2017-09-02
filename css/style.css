@@ -468,12 +468,11 @@ ol, ul {
 
 .footer {
 	margin: 0px auto;
-	height: 100px;
-	text-align: center;
+	height: 100px;	
 }
 
 .footer p {
-	text-align: center;
+	margin-left: 5%;
 }
 
 .port-content {
