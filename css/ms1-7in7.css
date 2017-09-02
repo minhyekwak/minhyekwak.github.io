@@ -62,8 +62,16 @@
     margin-left: 3%;
 }
 
-.day1-desc, .day2-desc p {
+.day1-desc p, .day2-desc p {
     margin-top: 20px;
+}
+
+.day2-desc .split {
+    float: left;
+    display: inline-block;
+    margin-right: 2%;
+    width: 48%;
+    min-width: 400px;
 }
 
 .board-map {
