@@ -472,7 +472,7 @@ ol, ul {
 }
 
 .footer p {
-	margin-left: 5%;
+	text-align: left;
 }
 
 .port-content {
