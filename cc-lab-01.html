@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/cc-lab-01.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<title>Minhye Kwak</title>
+	</head>
+	<body>
+    <div class="home-container">
+            <div class="header">
+                <div class="logo">
+                    <span><a href="index.html">mk</a></span>
+                </div>
+                <div class="top-nav">
+                    <p><a href="study.html">Studying</a> > <a href="cc-lab.html">CC Lab</a></p>
+                </div>
+            </div>
+            <div class="home-header">
+                <div class="nav">
+                    <ul>
+                        <li>Arduino hw#1</li>
+                        <li class="medium"> Turning On/OFF LED</li>
+                    </ul>
+                </div>
+                <div class="go">
+                    <p><br/><a href="works.html">Working ></a><br/><a href="study.html">Studying ></a><br/>
+                    <!--a href="#">Fun ></a-->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content-container">
+            <p class="desc">I made Arduino setup and codes so that if button is pressed when led is off, it will turned on, and keep the light on until next trigger.<br>Likewise, if button is pressed when led is on, it will turned off, and keep the light off until next trigger.</p>
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/232157795" width="711" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="code">
+                <p>int state = HIGH;<br>
+                int reading;<br>
+                int previous = LOW;</p>
+                <p>void setup() {<br>
+                &nbsp;pinMode(2, INPUT);<br>
+                &nbsp;pinMode(13, OUTPUT);<br>
+                }</p>
+                <p>void loop() {<br>
+                &nbsp;reading = digitalRead(2);<br>
+                &nbsp;if (reading == HIGH && previous == LOW) {<br>
+                &nbsp;&nbsp;if (state == HIGH)<br>
+                &nbsp;&nbsp;state = LOW;<br>
+                &nbsp;&nbsp;else<br>
+                &nbsp;&nbsp;state = HIGH;<br>
+                &nbsp;}<br>
+                &nbsp;digitalWrite(13, state);<br>
+                &nbsp;previous = reading;<br>
+                }</p>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="footer">
+				<p>&copy; Minhye Kwak. All Rights Reserved.</p>
+        </div>
+        
+    </body>
+</html>
