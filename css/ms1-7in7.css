@@ -1,15 +1,41 @@
-.project-container {
+.constraint {
     margin: 40px auto 0px auto;
     width: 90%;
 }
 
-.constraints {
-    border-bottom: 0.5px solid grey;
-    padding-bottom: 15px;
+.day-link {
+    margin: 0px auto;
+    width: 90%;
+    background-color: #f9f9f9;
+    border-top: 1px solid #d8dde0;
+    border-bottom: 1px solid #d8dde0;
+    border-left: 1px solid #d8dde0;
+    border-right: 1px solid #d8dde0;
+    height: 40px;
+}
+
+.day-link li {
+    float: left;
+    margin: 0px 10px 0px 20px;
+    padding-top: 9px;
+}
+
+.day-link a {
+    text-decoration: none;
+    color: grey;
+}
+
+.day-link a:hover {
+    color: black;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 .project {
-    margin-top: 40px;
+    width: 90%;
+    margin: 40px auto 0px auto;
+    border-top: 0.5px solid grey;
+    padding-top: 15px;
 }
 
 .project h2 span {
@@ -36,11 +62,36 @@
     margin-left: 3%;
 }
 
-.day1-desc h3 {
-    background-color: #fbef3a;
-    color: black;
-}
-
-.day1-desc p {
+.day1-desc, .day2-desc p {
     margin-top: 20px;
 }
+
+.board-map {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    min-width: 400px;
+}
+
+.board-map img {
+    width: 100%;
+}
+
+.board-element {
+    float: left;
+    display: inline-block;
+    width: 40%;
+    margin-left: 2%;
+    min-width: 400px;
+}
+
+.board-element img {
+    width: 100%;
+}
+
+
+
+
+
+
+
