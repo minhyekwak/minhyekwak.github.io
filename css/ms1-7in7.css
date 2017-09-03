@@ -124,7 +124,7 @@
     float: left;
     display: inline-block;
     width: 50%;
-    margin-right: 4%;
+    margin-right: 5%;
     min-width: 400px;
 }
 
@@ -141,6 +141,18 @@
 
 .outcome {
     margin-bottom: 40px;
+}
+
+.outcome div {
+    float: left;
+    display: inline-block;
+    width: 42%;
+    margin-right: 2%;
+    min-width: 380px;
+}
+
+.outcome div img {
+    width: 100%;
 }
 
 .footer {
