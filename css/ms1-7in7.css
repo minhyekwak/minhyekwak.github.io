@@ -69,11 +69,11 @@
     margin-top: 20px;
 }
 
-.day1-desc p, .day2-desc p {
+.day1-desc p, .day2-desc p, .day3-desc p {
     margin-top: 20px;
 }
 
-.day2-desc {
+.day2-desc, .day3-desc {
     margin-top: 50px;
 }
 
@@ -95,7 +95,6 @@
 
 .board-element-2 {
     margin-top: 20px;
-    margin-bottom: 50px;
 }
 
 .board-map {
@@ -119,6 +118,25 @@
 
 .board-element-1 img, .board-element-2 img {
     width: 100%;
+}
+
+.day3-desc div {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    margin-right: 4%;
+    min-width: 400px;
+}
+
+.day3-desc .left {
+    width: 30%;
+}
+
+.outcome a {
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-style: dashed;
+    color: black;
 }
 
 .footer {
