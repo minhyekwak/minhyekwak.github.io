@@ -132,7 +132,7 @@
     width: 30%;
 }
 
-.outcome a {
+.outcome a, .day4-desc a {
     text-decoration: underline;
     text-decoration-color: grey;
     text-decoration-style: dashed;
@@ -154,6 +154,16 @@
 .outcome div img {
     width: 100%;
 }
+
+.day4-desc {
+    width: 85%;
+}
+
+.day4-desc img {
+    width: 65%;
+}
+
+
 
 .footer {
     margin: 0px auto;
