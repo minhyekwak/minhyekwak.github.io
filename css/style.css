@@ -522,7 +522,7 @@ ol, ul {
 	opacity: 0.8;
 }
 
-.img-ms1-01:hover, .img-ms1-02:hover, .img-cc-lab-01:hover {
+.img-ms1-01:hover, .img-ms1-02:hover, .img-cc-lab-01:hover, .img-d4tc-01:hover {
 	opacity: 1;
 }
 
@@ -539,6 +539,11 @@ ol, ul {
 .img-cc-lab-01 {
     background: url('/image/cc-lab/thumb-cc-lab-01.jpg');
     background-size: cover;
+}
+
+.img-d4tc-01 {
+	background: url('/image/d4tc/thumb-d4tc-01-moana.jpg');
+	background-size: cover;
 }
 
 
