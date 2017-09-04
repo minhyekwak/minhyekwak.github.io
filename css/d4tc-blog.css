@@ -1,0 +1,42 @@
+.home-header .nav .smaller {
+    font-size: 70px;
+}
+
+.content-container {
+    margin: 20px auto 0px auto;
+    width: 90%;
+}
+
+.day-link {
+    background-color: #f9f9f9;
+    border: 1px solid #d8dde0;
+    padding: 15px 30px;
+    margin-bottom: 40px;
+}
+
+.day-link i {
+    line-height: 2.5;
+}
+
+.content {
+    width: 90%;
+    padding-left: 1%;
+    line-height: 1.6;
+}
+
+.content p {
+    padding-left: 0.5%;
+}
+
+.content img {
+    width: 100%;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.footer {
+    margin: 80px auto 0px auto;
+    width: 90%;
+}
