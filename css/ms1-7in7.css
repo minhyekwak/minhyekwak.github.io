@@ -132,7 +132,7 @@
     width: 30%;
 }
 
-.outcome a, .day4-desc a {
+.outcome a, .day4-desc a, .day5-desc a {
     text-decoration: underline;
     text-decoration-color: grey;
     text-decoration-style: dashed;
@@ -151,7 +151,7 @@
     min-width: 380px;
 }
 
-.outcome div img {
+.outcome div img, .day5-desc div img {
     width: 100%;
 }
 
@@ -163,7 +163,30 @@
     width: 65%;
 }
 
+.day5-desc {
+    width: 90%;
+}
 
+.caption {
+    font-size: 12px;
+}
+
+.day5-desc div {
+    float: left;
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+    min-width: 400px;
+}
+
+.day5-desc .day5-outcome {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.day5-desc .day5-outcome img {
+    width: 45%;
+}
 
 .footer {
     margin: 0px auto;
