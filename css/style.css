@@ -8,6 +8,11 @@ html, body, ul {
     line-height: 1.6;
 
 }
+
+.change-lh {
+    line-height: 1.38;
+}
+
 body {
 	/* 반응형으로 바꾼 부분 : width: 1230px; */
 	width: 100%;
