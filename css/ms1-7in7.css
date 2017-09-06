@@ -163,7 +163,7 @@
     width: 65%;
 }
 
-.day5-desc, .day6-desc {
+.day5-desc, .day6-desc, .day7-desc {
     width: 90%;
 }
 
@@ -188,9 +188,23 @@
     width: 45%;
 }
 
-.day6-desc img {
+.day6-desc img, .day7-desc img {
     width: 75%;
 }
+
+.day7-desc div {
+    float: left;
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+    min-width: 400px;
+}
+
+.day7-desc div img {
+    width: 100%;
+}
+
+.day7-desc h3 {}
 
 .footer {
     margin: 0px auto;
