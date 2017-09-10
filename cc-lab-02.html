@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/cc-lab-02.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<title>Minhye Kwak</title>
+	</head>
+	<body>
+    <div class="home-container">
+            <div class="header">
+                <div class="logo">
+                    <span><a href="index.html">mk</a></span>
+                </div>
+                <div class="top-nav">
+                    <p><a href="study.html">Studying</a> > <a href="cc-lab.html">CC Lab</a></p>
+                </div>
+            </div>
+            <div class="home-header">
+                <div class="nav">
+                    <ul>
+                        <li>Arduino hw#2</li>
+                        <li class="medium"> Temperature Circuit with Led</li>
+                    </ul>
+                </div>
+                <div class="go">
+                    <p><br/><a href="works.html">Working ></a><br/><a href="study.html">Studying ></a><br/>
+                    <!--a href="#">Fun ></a-->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content-container">
+            <p class="desc">For this homework, I decided to make a circuit connected with temperature sensor(TMP36).<br>I set the code to make the raw value of the analog sensor, voltage, temperature in C, and temperature in F be printed in serial monitor. <br>Also I connected RGB led to the circuit in order to turn the red-light when the temperature C is over 26, blue-light when the temperature C is under 24,<br>and green-light in between.</p>
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/233163148" width="711" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="code">
+                <p>
+                int i;<br>
+
+void setup() {<br>
+  Serial.begin(9600);<br>
+  for ( i = 5 ; i <= 7 ; i++) {<br>
+    pinMode(i, OUTPUT);<br>
+    }<br>
+<br>
+}<br>
+<br>
+float rawValue, voltage, tempC, tempF;<br>
+<br>
+void loop() {<br>
+  rawValue = analogRead(A0);<br>
+  voltage = (rawValue / 1023.0) * 5000;<br>
+  tempC = (voltage - 500) * 0.1;<br>
+  tempF = (tempC * 1.8) + 32;<br>
+<br>
+  Serial.print("RawValue : ");<br>
+  Serial.print(rawValue);<br>
+  Serial.print("\t milli volts : ");<br>
+  Serial.print(voltage);<br>
+  Serial.print("\t Temperature in C : ");<br>
+  Serial.print(tempC);<br>
+  Serial.print(" C");<br>
+  Serial.print("\t Temperature in F : ");<br>
+  Serial.print(tempF);<br><br>
+  Serial.print(" F");<br>
+  Serial.println();<br>
+<br>
+  if (tempC > 26.00) {<br>
+    digitalWrite(7, HIGH);<br>
+    delay(1000);<br>
+    digitalWrite(7, LOW);<br>
+    } <br>
+  else if (tempC < 24.00) {<br>
+    digitalWrite(5, HIGH);<br>
+    delay(1000);<br>
+    digitalWrite(5, LOW);<br>
+    }<br>
+  else {<br>
+    digitalWrite(6, HIGH);<br>
+    delay(1000);<br>
+    digitalWrite(6, LOW);<br>
+    }<br>
+<br>
+  delay(1);<br>
+<br>
+}
+                </p>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="footer">
+				<p>&copy; Minhye Kwak. All Rights Reserved.</p>
+        </div>
+        
+    </body>
+</html>

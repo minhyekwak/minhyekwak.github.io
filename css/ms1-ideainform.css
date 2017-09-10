@@ -1,0 +1,97 @@
+.content-container {
+    margin: 40px auto 0px auto;
+    width: 90%;
+}
+
+.assign {
+    background-color: #f9f9f9;
+    border: 1px solid #d8dde0;
+    padding: 10px 0px 20px 30px;
+    margin-bottom: 40px;
+}
+
+li {
+    list-style: disc;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    margin-top: 50px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+h3 {
+    font-weight: 400;
+    border-bottom: 1px solid grey;
+    display: inline-block;
+}
+
+.ch {
+    margin-top: 70px;
+}
+
+.ch1, .ch2 {
+    float: left;
+    width: 40%;
+    min-width: 300px;
+    display: inline-block;
+    margin-right: 8%;
+}
+
+.ch1 img {
+    width: 100%;
+}
+
+.ch2 {
+    width: 50%;
+    margin-right: 0%;
+}
+
+.ch3 {
+    margin-top: 40px;
+}
+
+.br, .se {
+    margin-top: 80px;
+}
+
+.br1, .se {
+    width: 90%;
+}
+
+.br2, .br3 {
+    float: left;
+    width: 46%;
+    min-width: 300px;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.br3 {
+    margin-top: 70px;
+    margin-right: 0%;
+}
+
+.br a {
+    text-decoration: none;
+    color: grey;
+}
+
+.indent {
+    margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
