@@ -55,24 +55,24 @@ h3 {
     margin-top: 40px;
 }
 
-.br, .se {
+.br, .se, .pr {
     margin-top: 80px;
 }
 
-.br1, .se {
+.br1, .se, .pr {
     width: 90%;
 }
 
 .br2, .br3 {
     float: left;
-    width: 46%;
+    width: 40%;
     min-width: 300px;
     display: inline-block;
     margin-right: 4%;
 }
 
 .br3 {
-    margin-top: 70px;
+    margin-top: 60px;
     margin-right: 0%;
 }
 
@@ -85,6 +85,19 @@ h3 {
     margin-left: 3%;
 }
 
+.pr .survey {
+    width: 90%;
+    margin-top: 40px;
+}
+
+.pr .survey img {
+    width: 100%;
+}
+
+.footer {
+    margin: 0px auto;
+    width: 90%;
+}
 
 
 
