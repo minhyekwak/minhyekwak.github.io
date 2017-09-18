@@ -517,7 +517,7 @@ ol, ul {
 	font-weight: 300;
 }
 
-.img-ms1-01, .img-ms1-02, .img-cc-lab-01, .img-d4tc-01, .img-cc-lab-02, .img-ms1-03 {
+.img-ms1-01, .img-ms1-02, .img-cc-lab-01, .img-d4tc-01, .img-cc-lab-02, .img-ms1-03, .img-ms1-03-2d, .img-ms1-03-3d  {
 	position: relative;
 	background-color: #e8e8e8;
 	width: 100%;
@@ -527,7 +527,7 @@ ol, ul {
 	opacity: 0.8;
 }
 
-.img-ms1-01:hover, .img-ms1-02:hover, .img-cc-lab-01:hover, .img-d4tc-01:hover, .img-cc-lab-02:hover, .img-ms1-03:hover {
+.img-ms1-01:hover, .img-ms1-02:hover, .img-cc-lab-01:hover, .img-d4tc-01:hover, .img-cc-lab-02:hover, .img-ms1-03:hover, .img-ms1-03-2d:hover, .img-ms1-03-3d:hover {
 	opacity: 1;
 }
 
@@ -558,6 +558,16 @@ ol, ul {
 
 .img-ms1-03 {
     background: url('/image/ms1-03/thumb-ms1-03.jpg');
+    background-size: cover;
+}
+
+.img-ms1-03-2d {
+    background: url('/image/ms1-03/thumb-ms1-03-1.jpg');
+    background-size: cover;
+}
+
+.img-ms1-03-3d {
+    background: url('/image/ms1-03/thumb-ms1-03-2.jpg');
     background-size: cover;
 }
 

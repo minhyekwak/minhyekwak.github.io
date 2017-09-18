@@ -18,10 +18,34 @@ h1 {
     font-weight: 400;
 }
 
+h1 span {
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 20px;
+    border-bottom: 1px solid #bababa;
+    display: inline-block;
+}
+
+h1 span a {
+    text-decoration: none;
+    color: grey;
+}
+
+h1 .first {
+    margin-left: 50px;
+}
+
 h2 {
     margin-top: 50px;
     font-weight: 400;
     margin: 0px;
+}
+
+h2 span {
+    font-size: 16px;
+    font-weight: 300;
+    color: grey;
+    margin-left: 20px;
 }
 
 h3 {
@@ -92,6 +116,48 @@ h3 {
 
 .pr .survey img {
     width: 100%;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.img-1 {
+    margin: 20px 0px 30px 0px;
+}
+
+.content p {
+    width: 85%;
+}
+
+.img-2 img {
+    width: 45%;
+    min-width: 300px;
+    display: inline-block;
+    margin: 20px 0px 30px 0px;
+}
+
+.img-3 img {
+    margin: 20px 0px 15px 0px;
+    width: 61.5%;
+    min-width: 450px;
+    display: inline-block;
+}
+
+.img-4 img {
+    width: 30%;
+    min-width: 300px;
+    display: inline-block;
+    margin-right: 1%;
+    margin-bottom: 20px;
+}
+
+.img-5 img {
+    width: 35%;
+    min-width: 300px;
+    display: inline-block;
+    margin: 20px 0px 30px 0px;
 }
 
 .footer {
