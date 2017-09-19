@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/cc-lab-02.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<title>Minhye Kwak</title>
+	</head>
+	<body>
+    <div class="home-container">
+            <div class="header">
+                <div class="logo">
+                    <span><a href="index.html">mk</a></span>
+                </div>
+                <div class="top-nav">
+                    <p><a href="study.html">Studying</a> > <a href="cc-lab.html">CC Lab</a></p>
+                </div>
+            </div>
+            <div class="home-header">
+                <div class="nav">
+                    <ul>
+                        <li>Arduino hw#3</li>
+                        <li class="medium"> Circuit with Motor</li>
+                    </ul>
+                </div>
+                <div class="go">
+                    <p><br/><a href="works.html">Working ></a><br/><a href="study.html">Studying ></a><br/>
+                    <!--a href="#">Fun ></a-->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/234440511" width="711" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <div class="code">
+                <p>
+                const int motorPin = 9;<br><br> 
+
+void setup()<br>
+{<br>
+  pinMode(motorPin, OUTPUT);<br>  
+  Serial.begin(9600); <br>       
+}<br><br>
+
+
+void loop()<br>
+{<br>
+  int onTime = 3000; <br>
+  int offTime = 3000;<br><br>
+
+  analogWrite(motorPin, 255);<br> 
+  delay(onTime); <br>               
+  analogWrite(motorPin, 0);<br>  
+  delay(offTime); <br>              
+}<br><br>
+
+void speedUpandDown()<br>
+{<br>
+  int speed;<br>
+  int delayTime = 20;<br><br> 
+
+  for(speed = 0; speed <= 255; speed++)<br>
+  {<br>
+    analogWrite(motorPin,speed);<br>	
+    delay(delayTime);<br>           	
+  }<br><br>
+ 
+  for(speed = 255; speed >= 0; speed--)<br>
+  {<br>
+    analogWrite(motorPin,speed);<br>	
+    delay(delayTime); <br>          	
+  }<br>
+}<br><br>
+
+
+void serialSpeed()<br>
+{<br>
+  int speed;<br><br>
+
+  Serial.println("Type a speed (0-255) into the box above,");<br>
+  Serial.println("then click [send] or press [return]");<br>
+  Serial.println(); <br><br> 
+
+  while(true) <br> 
+  {<br>
+    while (Serial.available() > 0)<br>
+    {<br>
+      speed = Serial.parseInt();  <br>
+      speed = constrain(speed, 0, 255);<br><br> 
+                                       
+      Serial.print("Setting speed to "); <br> 
+      Serial.println(speed);<br><br>
+
+      analogWrite(motorPin, speed);<br>  
+    }<br>
+  }<br>
+}<br>
+                </p>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="footer">
+				<p>&copy; Minhye Kwak. All Rights Reserved.</p>
+        </div>
+        
+    </body>
+</html>
