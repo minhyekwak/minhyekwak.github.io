@@ -4,7 +4,8 @@ html, body, ul {
 	font-family: 'Montserrat', sans-serif; 
 	font-weight: 300;
     line-height: 1.6;
-
+    background: url('/image/create-pattern.jpg');
+    background-size: cover;
 }
 
 body {
@@ -14,8 +15,6 @@ body {
 .container {
     margin: 40px auto;
     width: 85%;
-    background: url('/image/create-pattern.jpg');
-    background-size: cover;
 }
 
 h1 {
