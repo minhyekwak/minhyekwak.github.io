@@ -4,8 +4,7 @@ html, body, ul {
 	font-family: 'Montserrat', sans-serif; 
 	font-weight: 300;
     line-height: 1.6;
-    background: url('/image/create-pattern.jpg');
-    background-size: cover;
+    background-color: #faecd9;
 }
 
 body {
