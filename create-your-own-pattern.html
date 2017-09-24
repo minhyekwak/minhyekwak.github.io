@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/create-your-own-pattern.css">
+		<meta charset="utf-8">
+		<title>Create Your Emotional Pattern</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Create Your Emotional Pattern</h1>
+            <p>Choose your emotional level or frequency of each types, and submit.<br>(0 : the lowest, 5 : the highest)</p>
+            <div class="survey">
+                <h3>Anxiety</h3>
+                <form name="form1">
+                    <input class="an" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+                <div style="clear: both;"></div>
+                <h3>Depression</h3>
+                <form name="form2">
+                    <input class="de" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+                <div style="clear: both;"></div>
+                <h3>Mood Swings</h3>
+                <form name="form3">
+                    <input class="mo" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+                <div style="clear: both;"></div>
+                <h3>Irritability</h3>
+                <form name="form4">
+                    <input class="ir" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+                <div style="clear: both;"></div>
+                <h3>Anger</h3>
+                <form name="form5">
+                    <input class="ge" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+                <div style="clear: both;"></div>
+                <h3>Appetite Change</h3>
+                <form name="form6">
+                    <input class="ap" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+                <div style="clear: both;"></div>
+                <h3>Insomnia</h3>
+                <form name="form7">
+                    <input class="in" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+                <div style="clear: both;"></div>
+                <h3>Social Withdrawal</h3>
+                <form name="form8">
+                    <input class="so" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+                <div style="clear: both;"></div>
+                <h3>Poor Concentration</h3>
+                <form name="form9">
+                    <input class="po" type="radio" name="level" value="0" checked> 0
+                    <input type="radio" name="level" value="1"> 1
+                    <input type="radio" name="level" value="2"> 2
+                    <input type="radio" name="level" value="3"> 3
+                    <input type="radio" name="level" value="4"> 4
+                    <input type="radio" name="level" value="5"> 5
+                </form>
+            </div>
+            <div style="clear: both;"></div>
+            <input type="button" value="submit" onclick="submitForms()" />
+        </div>
+        <script>
+            submitForms = function() {
+                document.forms["form1"].submit();
+                document.forms["form2"].submit();
+                document.forms["form3"].submit();
+                document.forms["form4"].submit();
+                document.forms["form5"].submit();
+                document.forms["form6"].submit();
+                document.forms["form7"].submit();
+                document.forms["form8"].submit();
+                document.forms["form9"].submit();
+                return true;
+            }
+        </script>
+    </body>
+</html>
