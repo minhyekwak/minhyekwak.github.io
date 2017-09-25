@@ -8,6 +8,7 @@ html, body, ul {
 
 body {
 	width: 100%;
+    font-size: 30px;
 }
 
 .container {
@@ -17,8 +18,8 @@ body {
 
 h1 {
     font-weight: 400;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 90px;
+    line-height: 100px;
     letter-spacing: 1px;
 }
 
@@ -27,35 +28,35 @@ input {
 }
 
 .an {
-    margin-left: 145px;
+    margin-left: 234px;
 }
 
 .de {
-    margin-left: 111px;
+    margin-left: 171px;
 }
 
 .mo {
-    margin-left: 89px;
+    margin-left: 132px;
 }
 
 .ir {
-    margin-left: 125px;
+    margin-left: 199px;
 }
 
 .ge {
-    margin-left: 157px;
+    margin-left: 262px;
 }
 
 .ap {
-    margin-left: 56px;
+    margin-left: 72px;
 }
 
 .in {
-    margin-left: 127px;
+    margin-left: 207px;
 }
 
 .so {
-    margin-left: 47px;
+    margin-left: 57px;
 }
 
 .po {
