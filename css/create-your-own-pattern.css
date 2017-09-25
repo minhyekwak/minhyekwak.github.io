@@ -17,6 +17,9 @@ body {
 
 h1 {
     font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 1px;
 }
 
 input {
