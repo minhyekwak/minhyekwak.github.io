@@ -160,6 +160,37 @@ h3 {
     margin: 20px 0px 30px 0px;
 }
 
+.pattern {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.website {
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #d1d1d1;
+    float: left;
+    display: inline-block;
+    margin-right: 5%;
+    min-width: 400px;
+}
+
+.pattern-exp {
+    width: 40%;
+    margin-top: 30px;
+    float: left;
+}
+
+.pattern-exp2 {
+    margin-top: 30px;
+}
+
+.pattern-exp a {
+    color: grey;
+}
+
 .footer {
     margin: 0px auto;
     width: 90%;
