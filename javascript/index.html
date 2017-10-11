@@ -7,20 +7,32 @@
 		<title>Coffee Coffee</title>
     </head>
     <body>
-        <div class="top">
+        <div id="top">
             <span class="logo"><a href="#">Coffee Coffee</a></span>
             <ul class="menu">
-                <li class="menu-link">Home</li>
-                <li class="menu-link">Types</li>
-                <li class="menu-link">Recipes</li>
-                <li class="menu-link">Cafes</li>
+                <li class="menu-link"><a href="#">Home</a></li>
+                <li class="menu-link"><a href="#types">Types</a></li>
+                <li class="menu-link"><a href="#recipes">Recipes</a></li>
+                <li class="menu-link"><a href="#cafes">Cafes</a></li>
             </ul>
         </div>
-        <div class="types">
+        <div class="bg">
             <p class="quote"><span>“As long as there was coffee in the world, how bad could things be?”</span><br>
-            <button class="btn-quote" onclick='generateQuote(1)'>Generate</button></p>
+<!--            <button class="btn-quote" onclick='coffeeQuote'>Generate</button>-->
+            </p>
             <img class="coffee" src="image/coffee1.jpg">
-            
+        </div>
+        <div id="types">
+            <img class="imgTypes" src="image/types-01-latte.jpg">
+        </div>
+        <div id="recipes">
+            <img id="imgRecipes" src="image/recipe-01.jpg">
+            <div style="clear: both;"></div>
+            <button class="btn-recipe" onclick='coffeeRecipes()'>Look other recipes ></button>
+        </div>
+        <div id="cafes">
+            <p class="coffeeShops">The Best Coffee Shops in NYC<br><button class="btn-shop" onclick='coffeePlaces()'>Look other shops ></button></p>
+            <img id="imgCafes" src="image/cafe-01.jpg">
         </div>
         <script src="jquery-3.2.1.js"></script>
         <script src="main.js"></script>

@@ -4,7 +4,12 @@ body {
     margin: 0px auto;
 }
 
-.top {
+div {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#top {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 30px;
@@ -26,7 +31,7 @@ ul {
 
 .menu {
     float: right;
-    width: 40%;
+    width: 35%;
 }
 
 .menu-link {
@@ -37,9 +42,15 @@ ul {
     color: #4c4c4c;
 }
 
-.types img {
+.menu-link a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.bg img {
     position: relative;
     width: 100%;
+    display: block;
 }
 
 .quote {
@@ -51,27 +62,75 @@ ul {
     color: white;
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5);
-    padding: 10px; 
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.btn-quote {
-    background: none;
+.btn-recipe {
+    background: black;
     cursor: pointer;
-    padding: 20px 60px;
+    padding: 15px 35px;
     display: inline-block;
     margin: 15px 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 13px;
     outline: none;
-    border: 3px solid #fff;
-    color: #fff;
-    z-index: 10;
+    border: 2px solid black;
+    color: white;
     text-align: center;
 }
 
+#types .imgTypes {
+    width: 100%;
+    display: block;
+}
 
+#recipes {
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#cafes #imgCafes {
+    width: 100%;
+    display: block;
+}
+
+.coffeeShops {
+    z-index: 10;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.7);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.btn-shop {
+    background: none;
+    cursor: pointer;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+}
 
 
 
