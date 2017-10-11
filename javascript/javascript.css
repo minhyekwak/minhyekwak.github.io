@@ -31,7 +31,7 @@ ul {
 
 .menu {
     float: right;
-    width: 35%;
+    width: 50%;
 }
 
 .menu-link {
@@ -130,6 +130,39 @@ ul {
     border-bottom: 1px solid white;
     color: white;
     text-align: center;
+}
+
+#essay {
+    background-color: #362d00;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.coffeeEssay {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.btn-essay {
+    background: none;
+    cursor: pointer;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
 
 
