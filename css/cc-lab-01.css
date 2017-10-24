@@ -18,6 +18,15 @@
     margin-bottom: 20px;
 }
 
+.photo img {
+    float: left;
+    display: inline-block;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    width: 45%;
+    border: 1px solid #d8dde0;
+}
+
 .code {
     float: left;
     display: inline-block;
