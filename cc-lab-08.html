@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/cc-lab-01.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<title>Minhye Kwak</title>
+	</head>
+	<body>
+        <div class="home-container">
+            <div class="header">
+                <div class="logo">
+                    <span><a href="index.html">mk</a></span>
+                </div>
+                <div class="top-nav">
+                    <p><a href="study.html">Studying</a> > <a href="cc-lab.html">CC Lab</a></p>
+                </div>
+            </div>
+            <div class="home-header">
+                <div class="nav">
+                    <ul>
+                        <li>Javascript - Library HW</li>
+                        <li class="medium"> Psychic Duck</li>
+                    </ul>
+                </div>
+                <div class="go">
+                    <p><br/><a href="works.html">Working ></a><br/><a href="study.html">Studying ></a><br/>
+                    <!--a href="#">Fun ></a-->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content-container">
+            <p class="desc">Our group modified javascript for making answering duck with changeable eyes. It contains 4 different functions - <br>one is for playing each same sound as the answer, the other one is making an random reply and random eyes, <br>and the other one is for running those functions related to sound, reply, and eyes. <br>The last function means all these will be performed when user clicks button. <a href="cclab/psychic-duck/index.html" target="_blank">Link</a></p>
+            <div class="photo">
+                <img src="image/cc-lab/psychicDuck/duck1.png">
+                <img src="image/cc-lab/psychicDuck/duck2.png">
+                <img src="image/cc-lab/psychicDuck/duck3.png">
+                <img src="image/cc-lab/psychicDuck/duck4.png">
+                <img src="image/cc-lab/psychicDuck/duck5.png">
+                <img src="image/cc-lab/psychicDuck/duck6.png">
+                <img src="image/cc-lab/psychicDuck/duck7.png">
+                <img src="image/cc-lab/psychicDuck/duck8.png">
+            </div>
+            <div style="clear: both;"></div>
+            <div class="code" style="margin-bottom: 60px;">
+                <p>var replies = ["Yes", "No", "How should I know?", "Feed me and then I'll tell you.", "Maaaaybe."];<br>
+                var sounds = ["yes", "no", "how", "feedme", "maybe"];<br>
+                var eyes = ["eyes", "eyes2", "eyes3", "eyes4", "eyes5", "eyes", "eyes7" ];<br>
+                var randomNum = 0;<br>
+                var randomEyes = 0;<br>
+                var audioElement;<br><br>
+                function playSounds(r) {<br>
+                var currentSound = "../sound/" + r + ".mp3";<br>
+                currentSound.play();<br>
+                }<br><br>
+                function randomNum2(arrayName) { <br>
+                var num = Math.floor(Math.random() * arrayName.length - 1)+1;<br>
+                return num;<br>
+                }<br><br>
+                function answerQuestion () {<br>
+                console.log("running");<br>
+                var randomReply = replies[randomNum2(replies)];<br>
+	            var randomSound = sounds[randomNum2(sounds)];<br>
+                var randomEyes = eyes[randomNum2(eyes)];<br>
+                $("#speech").html(randomReply);<br>
+	            $("#eyes").html("<img src=\"assets/img/" + randomEyes + ".png\">")<br><br>
+                function init() {<br>
+	            console.log('Hello World');<br>
+                $("#submit").click(answerQuestion);<br>
+                }<br><br>
+                $(document).ready(function(){<br><br>
+	            init();<br>
+                });<br>
+                </p>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="footer">
+				<p>&copy; Minhye Kwak. All Rights Reserved.</p>
+        </div>
+    </body>
+</html>
+        

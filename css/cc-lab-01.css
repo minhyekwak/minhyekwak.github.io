@@ -11,6 +11,11 @@
     margin-bottom: 30px;
 }
 
+.desc a {
+    text-decoration: underline;
+    color: grey;
+}
+
 .video {
     float: left;
     display: inline-block;
