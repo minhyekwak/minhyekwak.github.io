@@ -1,0 +1,17 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+    overflow-y: hidden;
+}
+
+#gif {
+    min-height: 100%;
+    background: url('images/bg.jpg') no-repeat;
+    background-size: cover;
+/*
+    background-attachment: fixed;
+    background-size: cover;
+*/
+}
