@@ -16,6 +16,10 @@
     color: grey;
 }
 
+.desc .grey {
+    color: grey;
+}
+
 .video {
     float: left;
     display: inline-block;
