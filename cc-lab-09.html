@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/cc-lab-01.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+		<title>Minhye Kwak</title>
+	</head>
+	<body>
+        <div class="home-container">
+            <div class="header">
+                <div class="logo">
+                    <span><a href="index.html">mk</a></span>
+                </div>
+                <div class="top-nav">
+                    <p><a href="study.html">Studying</a> > <a href="cc-lab.html">CC Lab</a></p>
+                </div>
+            </div>
+            <div class="home-header">
+                <div class="nav">
+                    <ul>
+                        <li>Javascript - Mini Project</li>
+                        <li class="medium"> Play Your Own Drum</li>
+                    </ul>
+                </div>
+                <div class="go">
+                    <p><br/><a href="works.html">Working ></a><br/><a href="study.html">Studying ></a><br/>
+                    <!--a href="#">Fun ></a-->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content-container">
+            <p class="desc">For my Javascript mini project, I made an playful website for drum playing. I utilized jQuery and p5.js. I used preload function to load each drum sound, and keypressed function in order to play sound and present gif image when specific key is pressed.<a href="https://minhyekwak.github.io/cclab/js/drum/index.html" target="_blank">Link</a></p>
+            <div class="photo">
+                <img src="image/cc-lab/mini-project/javascriptMini-1.png">
+            </div>
+            <div style="clear: both;"></div>
+            <div class="code" style="margin-bottom: 60px;">
+                <p>function preload() {<br>
+                drumA = loadSound('sounds/bass1.mp3');<br>
+                drumS = loadSound('sounds/bass2.mp3');<br>
+                drumD = loadSound('sounds/crash1.mp3');<br>
+                drumF = loadSound('sounds/crash2.mp3');<br>
+                drumG = loadSound('sounds/hihat1.mp3');<br>
+                drumH = loadSound('sounds/hihat2.mp3');<br>
+                drumJ = loadSound('sounds/ride.mp3');<br>
+                drumK = loadSound('sounds/snare1.mp3');<br>
+                drumL = loadSound('sounds/snare2.mp3');<br>
+                drumM = loadSound('sounds/tenor.mp3');<br>
+            }<br><br>
+
+            function setup() {<br>
+                createCanvas(windowWidth, windowHeight);<br>
+            }<br><br>
+
+            function keyPressed() {<br>
+                console.log(key);<br>
+                if(key === 'A') {<br>
+                    drumA.play();<br>
+                    $("#gif").css({"background": "url('images/bass1.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing A");<br>
+                } <br><br>
+
+                if( key !== 'A') {<br>
+                    drumA.stop();<br>
+                    console.log("stop A");<br>
+                }<br><br>
+
+                if(key === 'S') {<br>
+                    drumS.play();<br>
+                    $("#gif").css({"background": "url('images/bass2.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing S");<br>
+                }<br><br>
+
+                if( key !== 'S') {<br>
+                    drumS.stop();<br>
+                    console.log("stop S");<br>
+                }<br><br>
+
+                if(key === 'D') {<br>
+                    drumD.play();<br>
+                    $("#gif").css({"background": "url('images/crash1.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing D");<br>
+                }<br><br>
+
+                if( key !== 'D') {<br>
+                    drumD.stop();<br>
+                    console.log("stop D");<br>
+                }<br><br>
+
+                if(key === 'F') {<br>
+                    drumF.play();<br>
+                    $("#gif").css({"background": "url('images/crash2.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing F");<br>
+                }<br><br>
+
+                if( key !== 'F') {<br>
+                    drumF.stop();<br>
+                    console.log("stop F");<br>
+                }<br><br>
+
+                if(key === 'G') {<br>
+                    drumG.play();<br>
+                    $("#gif").css({"background": "url('images/highhat1.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing G");<br>
+                }<br><br>
+
+                if( key !== 'G') {<br>
+                    drumG.stop();<br>
+                    console.log("stop G");<br>
+                }<br><br>
+
+                if(key === 'H') {<br>
+                    drumH.play();<br>
+                    $("#gif").css({"background": "url('images/highhat2.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing H");<br>
+                }<br><br>
+
+                if( key !== 'H') {<br>
+                    drumH.stop();<br>
+                    console.log("stop H");<br>
+                }<br><br>
+
+                if(key === 'J') {<br>
+                    drumJ.play();<br>
+                    $("#gif").css({"background": "url('images/ride.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing J");<br>
+                }<br><br>
+
+                if( key !== 'J') {<br>
+                    drumJ.stop();<br>
+                    console.log("stop J");<br>
+                }<br><br>
+
+                if(key === 'K') {<br>
+                    drumK.play();<br>
+                    $("#gif").css({"background": "url('images/snare1.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing K");<br>
+                }<br><br>
+
+                if( key !== 'K') {<br>
+                    drumK.stop();<br>
+                    console.log("stop K");<br>
+                }<br><br>
+
+                if(key === 'L') {<br>
+                    drumL.play();<br>
+                    $("#gif").css({"background": "url('images/snare2.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing L");<br>
+                }<br><br>
+
+                if( key !== 'L') {<br>
+                    drumL.stop();<br>
+                    console.log("stop L");<br>
+                }<br><br>
+
+                if(key === 'M') {<br>
+                    drumM.play();<br>
+                    $("#gif").css({"background": "url('images/tenor.gif') no-repeat center center fixed", "background-size": "cover"});<br>
+                    console.log("playing M");<br>
+                }<br><br>
+
+                if( key !== 'M') {<br>
+                    drumM.stop();<br>
+                    console.log("stop M");<br>
+                }<br><br>
+
+            }<br>
+
+                </p>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="footer">
+				<p>&copy; Minhye Kwak. All Rights Reserved.</p>
+        </div>
+    </body>
+</html>
+        

@@ -9,6 +9,14 @@ function preload() {
     drumK = loadSound('sounds/snare1.mp3');
     drumL = loadSound('sounds/snare2.mp3');
     drumM = loadSound('sounds/tenor.mp3');
+    
+//    drums = {};
+//    drums['A'] = {
+//        drumFile: 'sounds/bass1.mp3',
+//        drumImage: 'images/bass1.gif'
+//    }
+//    drums['S'] = 'sounds/bass2.mp3';
+    
 }
 
 function setup() {
@@ -17,6 +25,8 @@ function setup() {
 
 function keyPressed() {
     console.log(key);
+//    drum = loadSound(drums[key];
+//    drum.play;        
     if(key === 'A') {
         drumA.play();
         $("#gif").css({"background": "url('images/bass1.gif') no-repeat center center fixed", "background-size": "cover"});

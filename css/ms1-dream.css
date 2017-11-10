@@ -41,3 +41,20 @@ h3 {
 .yayoi img {
     width: 60%;
 }
+
+.proposal p {
+    width: 85%;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 6%;
+}
+
+.footnote {
+    margin-top: 50px;
+    border-top: 1px solid grey;
+    padding-top: 20px;
+    font-size: 14px;
+    color: grey;
+    width: 55%;
+    line-height: 26px;
+}
