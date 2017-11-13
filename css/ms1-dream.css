@@ -16,6 +16,8 @@ h2 {
     margin-top: 50px;
     font-weight: 400;
     margin: 0px;
+    background-color: aliceblue;
+    width: 90%;
 }
 
 .mblong {
@@ -42,11 +44,23 @@ h3 {
     width: 60%;
 }
 
+.proposal {
+    margin-top: 50px;
+}
+
 .proposal p {
-    width: 85%;
+    width: 90%;
+    margin-top: 30px;
+/*
     font-size: 18px;
     line-height: 30px;
     text-indent: 6%;
+*/
+}
+
+.proposal b {
+    font-size: 19px;
+    line-height: 34px;
 }
 
 .footnote {
@@ -55,7 +69,15 @@ h3 {
     padding-top: 20px;
     font-size: 14px;
     color: grey;
-    width: 55%;
+    width: 90%;
     line-height: 26px;
     margin-bottom: 50px;
+}
+
+.underline {
+    border-bottom: 1px solid grey;
+}
+
+.cite {
+    color: gray;
 }
