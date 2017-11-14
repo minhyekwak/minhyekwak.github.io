@@ -12,6 +12,12 @@
     width: 90%;
 }
 
+h2 {
+    margin-top: 50px;
+    font-weight: 400;
+    margin: 0px;
+}
+
 .title {
     margin-top: 50px;
     font-weight: 400;
@@ -20,7 +26,7 @@
     width: 90%;
 }
 
-.mblong {
+.mblong, .prot1-1, .prot2 {
     margin-bottom: 50px;
 }
 
@@ -80,4 +86,24 @@ h3 {
 
 .cite {
     color: gray;
+}
+
+.core li, .disc {
+    list-style: disc;
+}
+
+.prot1 img {
+    width: 60%;
+}
+
+.prot1-1 img {
+    width: 29.8%;
+}
+
+.prot2 img {
+    width: 45%;
+}
+
+.prot2 .narrow {
+    width: 40%;
 }
