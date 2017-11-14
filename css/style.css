@@ -517,7 +517,7 @@ ol, ul {
 	font-weight: 300;
 }
 
-.img-ms1-01, .img-ms1-02-1, .img-ms1-02-2, .img-ms1-02-3, .img-ms1-02-4, .img-ms1-02-5, .img-ms1-02-6, .img-ms1-02-7, .img-cc-lab-01, .img-d4tc-01, .img-cc-lab-02, .img-ms1-03, .img-ms1-03-2d, .img-ms1-03-3d, .img-cc-lab-03, .img-cc-lab-04, .img-ms1-03-interaction, .img-ms1-04-instruction, .img-cc-lab-05, .img-cc-lab-06, .img-cc-lab-07, .img-cc-lab-08, .img-ms1-05, .img-cc-lab-09, .img-ms1-06 {
+.img-ms1-01, .img-ms1-02-1, .img-ms1-02-2, .img-ms1-02-3, .img-ms1-02-4, .img-ms1-02-5, .img-ms1-02-6, .img-ms1-02-7, .img-cc-lab-01, .img-d4tc-01, .img-cc-lab-02, .img-ms1-03, .img-ms1-03-2d, .img-ms1-03-3d, .img-cc-lab-03, .img-cc-lab-04, .img-ms1-03-interaction, .img-ms1-04-instruction, .img-cc-lab-05, .img-cc-lab-06, .img-cc-lab-07, .img-cc-lab-08, .img-ms1-05, .img-cc-lab-09, .img-ms1-06, .img-ms1-07 {
 	position: relative;
 	background-color: #e8e8e8;
 	width: 100%;
@@ -527,7 +527,7 @@ ol, ul {
 	opacity: 0.8;
 }
 
-.img-ms1-01:hover, .img-ms1-02:hover, .img-ms1-02-2:hover, .img-ms1-02-3:hover, .img-ms1-02-4:hover, .img-ms1-02-5:hover, .img-ms1-02-6:hover, .img-ms1-02-7:hover, .img-cc-lab-01:hover, .img-d4tc-01:hover, .img-cc-lab-02-1:hover, .img-ms1-03:hover, .img-ms1-03-2d:hover, .img-ms1-03-3d:hover, .img-cc-lab-03:hover, .img-cc-lab-04:hover, .img-ms1-03-interaction:hover, .img-ms1-04-instruction:hover, .img-cc-lab-05:hover, .img-cc-lab-06:hover, .img-cc-lab-07:hover, .img-cc-lab-08:hover, .img-ms1-05:hover, .img-cc-lab-09:hover, .img-ms1-06:hover {
+.img-ms1-01:hover, .img-ms1-02:hover, .img-ms1-02-2:hover, .img-ms1-02-3:hover, .img-ms1-02-4:hover, .img-ms1-02-5:hover, .img-ms1-02-6:hover, .img-ms1-02-7:hover, .img-cc-lab-01:hover, .img-d4tc-01:hover, .img-cc-lab-02-1:hover, .img-ms1-03:hover, .img-ms1-03-2d:hover, .img-ms1-03-3d:hover, .img-cc-lab-03:hover, .img-cc-lab-04:hover, .img-ms1-03-interaction:hover, .img-ms1-04-instruction:hover, .img-cc-lab-05:hover, .img-cc-lab-06:hover, .img-cc-lab-07:hover, .img-cc-lab-08:hover, .img-ms1-05:hover, .img-cc-lab-09:hover, .img-ms1-06:hover, .img-ms1-07:hover {
 	opacity: 1;
 }
 
@@ -653,6 +653,11 @@ ol, ul {
 
 .img-ms1-06 {
     background: url('/image/ms1-05/thumb-ms1-06.jpg');
+    background-size: cover;
+}
+
+.img-ms1-07 {
+    background: url('/image/ms1-05/thumb-ms1-07.jpg');
     background-size: cover;
 }
 
