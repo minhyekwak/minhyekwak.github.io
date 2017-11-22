@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    background: url(images/bg.jpg) repeat;
+    background-size: 15em;
+}
+
+div {
+    margin: 30px 0;
+}
+
+div span {
+    font-weight: 400;
+}
+
+.field {
+    margin: 50px 0 10px 0;
+}
+
+#pokeimage1, #pokeimage2, #pokeimage3, #pokeimage4, #pokeimage5, #pokeimage5, #pokeimage6, #pokeimage7, #pokeimage8, #pokeimage9, #pokeimage10, #pokeimage11, #pokeimage12 {
+    position: fixed;
+}
+
+#pokeimage1, #pokeimage3, #pokeimage4 {
+    margin: 55px 0 0 97px;
+}
+
+#pokeimage2 {
+    margin: 55px 0 0 107px;
+}
+
+#pokeimage5, #pokeimage7, #pokeimage8 {
+    margin: 298px 0 0 97px;
+}
+
+#pokeimage6 {
+    margin: 298px 0 0 107px;
+}
+
+#pokeimage9, #pokeimage11, #pokeimage12 {
+    margin: 539px 0 0 97px;
+}
+
+#pokeimage10 {
+    margin: 539px 0 0 107px;
+}
+
+#pokeform1, #pokeform2, #pokeform3, #pokeform4, #pokeform5, #pokeform6, #pokeform7, #pokeform8, #pokeform9, #pokeform10, #pokeform11, #pokeform12 {
+    margin: 0 6% 0 7%;
+    display: inline;
+    position: relative;
+    top: 213px;
+}
+
+#pokeform2, #pokeform6, #pokeform10 {
+    margin: 0 7% 0 8%;
+}
+
+#pokeform3, #pokeform7, #pokeform11 {
+    margin: 0 7% 0 7%;
+}
+
+#pokeform5, #pokeform6, #pokeform7, #pokeform8 {
+    top: 455px;
+}
+
+#pokeform9, #pokeform10, #pokeform11, #pokeform12 {
+    top: 695px;
+}
+
+
+input[type="text"] {
+/*    display: block;*/
+    margin: 0;
+    font-size: 14px;
+/*
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+*/
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    width: 6%;
+    box-shadow: none;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+}
+
+input[type="text"]:focus
+ {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+    outline: none;
+}
+
+button {
+    display: inline-block;
+    margin-top: -3px;
+    /*  margin: 0 10px 0 0;*/
+    padding: 8px 10px;
+    font-size: 13px;
+/*    line-height: 1.8;*/
+/*
+    appearance: none;
+    box-shadow: none;
+*/
+    border-radius: 0;
+    color: #fff;
+    background-color: #f1693a;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 10px #6b3f29;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
+    display: inline;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #f1693a;
+}
+
+button:active {
+    background-color: #f1693a;
+    box-shadow: 0 5px #6b3f29;
+    transform: translateY(5px);
+}
+#myImage{
+    background:url('image/img.jpg') no-repeat;
+    background-size: 100% auto;
+}
