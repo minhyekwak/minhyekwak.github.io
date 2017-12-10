@@ -117,3 +117,31 @@ h3 {
 .setup {
     width: 45%;
 }
+
+.headset {
+    width: 19.2%;
+}
+
+.hack {
+    width: 42.2%;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.wheels img {
+    width: 25.5%;
+}
+
+.wood img {
+    width: 38.5%;
+}
+
+.audience {
+    margin-top: 20px;
+}
+
+.audience img {
+    width: 25.4%;
+}
